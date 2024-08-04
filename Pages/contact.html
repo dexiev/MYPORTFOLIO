@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact page</title>
+    <link rel="stylesheet" href="../static files/css/style.production.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <h1>WILLIAM MORRISON</h1>
+            </div>
+            <ul role="menubar">
+                <li role="presentation">
+                   <a href="index.html" role="menuitem">Home</a>
+                </li>
+                <li role="presentation">
+                   <a href="about.html" role="menuitem">About</a>
+                </li>
+               <li role="presentation">
+                   <a href="contact.html" role="menuitem">Contact</a>
+                </li>
+               <li role="presentation">
+                   <a href="work.html" role="menuitem">Work</a>
+                </li>
+             </ul>
+        </nav>
+
+    </header>
+
+    <main class="contact-main">
+        <div class="about-me">
+            <p>Contact address :</p>
+            <h3>William MORRISON</h3>
+            <p>308 MARKET ST</p>
+            <p>SANTA CRUZ</p>
+            <p>CA 95060</p>
+            <P><a href="tel:+15189458277">tel:+1 (518) 945-8277</a></P>
+            <P><a href="mailto:william23morrison@gmail.com">email: william23morrison@gmail.com</a></P>
+        </div>
+
+
+        <div class="contact-form">
+            <h1>Contact Form:</h1>
+            <form action="" method="post">
+                <label for="contact-email" class="standard-label">Enter your email address:</label><br>
+                <input type="email" id="contact-email" required> <br>
+
+                <label for="phone" class="standard-label">Enter your phone number</label><br>
+                <input id="phone" type="tel" required pattern="\d{3}[\-]\d{3}[\-]\d{4}"><br>
+
+                <label class="standard-label" for="message">Message: </label><br>
+                <textarea maxlength="240" required>enter your message here</textarea><br>
+
+                <input type="submit" value="Send message" class="btn">
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <h5>Find me on</h5>
+        <a href="www.github.com"><img src="../static files/img/2308116_github_logo_website_icon.png" alt="github icon"></a>
+        <a href="www.x.com"><img src="../static files/img/twitter-logo-2429.png" alt="twitter icon"></a>
+        <a href="www.linkedin.com"><img src="../static files/img/317750_linkedin_icon.png" alt="github icon"></a>
+
+    </footer>
+    <script src="../static files/javascript/tota11y.min.js"></script>
+
+</body>
+</html>
